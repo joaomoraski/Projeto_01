@@ -13,20 +13,18 @@
 			header('Location: '.INCLUDE_PATH_PAINEL);
 		}
 
-
-		public static function loadPage(){
-			if (isset($_GET['url'])) {
+		public static function carregarPagina(){
+			if(isset($_GET['url'])){
 				$url = explode('/',$_GET['url']);
-				if (file_exists('pages/'.$url[0].'.php')) {
+				if(file_exists('pages/'.$url[0].'.php')){
 					include('pages/'.$url[0].'.php');
 				}else{
-					//quando a pagina nao existe
+					//Página não existe!
 					header('Location: '.INCLUDE_PATH_PAINEL);
 				}
 			}else{
 				include('pages/home.php');
 			}
-
 		}
 
 	}

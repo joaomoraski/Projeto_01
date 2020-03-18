@@ -44,7 +44,7 @@
 			</div><!-- box-usuario-->
 			<div class="items-menu">
 				<h2>Cadastro</h2>
-				<a href="<?php echo INCLUDE_PATH_PAINEL?>cadastrar-depoimentos.php">Cadastrar Depoimento</a>
+				<a href="<?php echo INCLUDE_PATH_PAINEL; ?>cadastrar-depoimento">Cadastrar Depoimento</a>
 				<a href="">Cadastrar Serviço</a>
 				<a href="">Cadastrar Slides</a>
 				<h2>Gestão</h2>
@@ -72,7 +72,7 @@
 		</header>
 		<div class="content">
 		
-			<?php Painel::loadPage();?>
+			<?php Painel::carregarPagina(); ?>
 
 		</div><!--Content-->
 
