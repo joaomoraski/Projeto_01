@@ -184,6 +184,21 @@ div.box-usuario{
 
 }
 
+.imagem-usuario{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+
+.imagem-usuario img{
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	border: 3px solid #00bfa5;
+
+}
+
 .avatar-usuario i{
 	position: relative;
 	left: 50%;
@@ -279,9 +294,6 @@ div.box-usuario{
 	padding: 10px 0;
 	font-size: 26px;
 }
-
-
-
 
 
 @media screen and (max-width: 768px){

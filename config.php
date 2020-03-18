@@ -16,6 +16,9 @@
 	define('PASSWORD', '');
 
 
+	//Constantes para o painel de controle
+	define('NOME_EMPRESA', 'Moraski');
+
 	//Funções
 
 	function pegaCargo($cargo){
