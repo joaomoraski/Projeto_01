@@ -102,7 +102,7 @@ header{
 
 
 .loggout a{
-	padding: 0 50px;
+	padding: 0 20px;
 	position: relative;
 	top: 4px;
 	text-decoration:none;
@@ -253,7 +253,7 @@ div.box-usuario{
 .box-content{
 	background: white;
 	padding: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 
 }
 
@@ -295,6 +295,30 @@ div.box-usuario{
 	font-size: 26px;
 }
 
+
+/*Tabela responsiva*/
+
+.table-responsive{
+	max-width: 1280px;
+	margin: 20px auto;
+
+}
+
+.table-responsive .row:nth-of-type(1){
+	font-weight: bold;
+	border-bottom: 1px solid #333;
+}
+
+.table-responsive .row{
+	color: #777;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.col{
+	float: left;
+	width: 50%;
+}
 
 @media screen and (max-width: 768px){
 	.menu{

@@ -1,7 +1,5 @@
 <?php 
 
-	session_start();
-
 	include('../config.php');
 
 	if (Painel::logado() == false) {

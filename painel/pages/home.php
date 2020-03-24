@@ -22,4 +22,33 @@
 		</div><!--box-metrica-->
 		<div class="clear"></div>
 </div><!--box-content-->
-			
+
+
+<div class="box-content w100">
+	<h2><i class="fas fa-globe"></i> Usuarios Online </h2>
+		<div class="table-responsive">
+			<div class="row">
+				<div class="col">
+					<span>IP</span>
+				</div><!--col-->
+				<div class="col">
+					<span>Ultima Ação</span>
+				</div><!--col-->
+				<div class="clear"></div>
+			</div><!-- row -->
+
+			<?php for ($i=0; $i < 1; $i++) { 
+			?>
+			<div class="row">
+				<div class="col">
+					<span>8.8.8.8</span>
+				</div><!--col-->
+				<div class="col">
+					<span>Fechou o site</span>
+				</div><!--col-->
+				<div class="clear"></div>
+			</div><!-- row -->
+			<?php } ?>
+		</div><!--table-responsive-->
+</div><!--box-content-->
+  
